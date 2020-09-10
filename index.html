@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" href="https://www.any.do/v4/images/og-image.png">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+        <!--handlebars-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;500&display=swap" rel="stylesheet">
+        <title>To Doolean</title>
+    </head>
+    <body>
+        <input class="input" id="newItem" type="text" placeholder="Qualcosa di nuovo da fare?">
+        <button  class="btn" type="button" name="button">Aggiungi <i class="fas fa-plus-circle"></i></button>
+        <ol class="items"></ol>
+
+        <script id="entry-template" type="text/x-handlebars-template">
+            <li data-id={{id}} class="fra">
+            {{text}}
+            <span class="remove"><i class="fas fa-trash-alt"></i></span>
+            <input type="text" placeholder="{{text}}" class="hide">
+        </li>
+        </script>
+    <script src="js/script.js" charset="utf-8"></script>
+    </body>
+</html>

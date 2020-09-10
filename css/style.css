@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+#newItem {
+    background-color: rgb(232, 232, 232);
+    border-radius: 5px 0 0 5px;
+    border: 1px solid rgb(232, 232, 232);
+    font-size: 14px;
+    width: 300px;
+    height: 30px;
+    margin: 20px 0 20px 20px;
+    padding: 0 10px 0 10px;
+}
+
+.btn {
+    background-color: rgb(28, 199, 40);
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid rgb(28, 199, 40);
+    cursor: pointer;
+}
+
+.remove {
+    color: rgb(207, 54, 54);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.items {
+    margin-left: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
